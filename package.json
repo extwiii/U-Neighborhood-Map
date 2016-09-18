@@ -1,0 +1,31 @@
+{
+  "name": "neighborhoodmap",
+  "version": "1.0.0",
+  "description": "Showing specific places on map with their pictures vs.",
+  "main": "index.js",
+  "scripts": {
+    "mocha":  "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extwiii/U-Neighborhood-Map.git"
+  },
+  "keywords": [
+    "neighborhood",
+    "google",
+    "yelp",
+    "extwiii"
+  ],
+  "author": "Bilal Cagiran",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/extwiii/U-Neighborhood-Map/issues"
+  },
+  "homepage": "https://github.com/extwiii/U-Neighborhood-Map#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.0.2"
+  }
+}
+
