@@ -4,7 +4,7 @@
   "description": "Showing specific places on map with their pictures vs.",
   "main": "index.js",
   "scripts": {
-    "mocha":  "mocha test/test.js"
+    "mocha": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,6 @@
     "gulp": "^3.9.1",
     "gulp-mocha": "^3.0.1",
     "mocha": "^3.0.2"
-  }
+  },
+  "dependencies": {}
 }
-

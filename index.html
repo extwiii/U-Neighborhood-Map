@@ -2,20 +2,61 @@
 <html>
   <head>
     <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <!-- CSS files  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+    <!-- start - CSS files  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <meta charset="utf-8">
+    <!-- end - CSS files  -->
   </head>
 
   <body>
-    <div id="map"></div>
 
-    <!-- JS files  -->
+ <!-- Start - Material Design Lite -->   
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Neighborhood Map</span>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right" id="focus" >
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="fixed-header-drawer-exp" >
+          <i class="material-icons">search</i>
+        </label>
+
+
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="fixed-header-drawer-exp" style="width : 300px">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Stations</span>
+    <nav class="mdl-navigation">
+      <!-- Stations Nav list come here by JS-->
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <!-- Google map div -->
+    <div class="page-content" id="map"></div>
+      <div id="pano"></div>
+  </main>
+</div>
+<!-- End - Material Design Lite --> 
+
+    <!-- start - JS files  -->
     <script src="js/locations.js"></script>
     <script src="js/script.js"></script>
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4WcZXLki3GHb219sKkN_0hFeLBd_OeXI&callback=initMap"
     async defer></script>
+    <!-- end - JS files  -->
   </body>
 </html>
 
