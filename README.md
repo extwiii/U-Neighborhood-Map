@@ -1,11 +1,3 @@
-
-# Author
-![@extwiii](https://avatars1.githubusercontent.com/u/2933560?v=3&s=120)
-
-Created by Bilal Cagiran
-
-[E-Mail](mailto:bcagiran@hotmail.com) | [Github](https://github.com/extwiii/) | [LinkedIn](https://linkedin.com/in/bilalcagiran) | [CodePen](http://codepen.io/extwiii/) | [Blog/Site](http://bilalcagiran.com) | [FreeCodeCamp](https://www.freecodecamp.com/extwiii) 
-
 # U-Neighborhood-Map
 This is map of major underground stations of London.You can search via search bar on top right of the screen also with navigation menu left side of the screen.When you click any station's marker, street view will appear on right side of the screen.You can search and discover new places and stations with this street view.Also you can see tube map on your google map.
 
@@ -33,5 +25,6 @@ To run the application:
 - Material Design Lite
 - Gulp-Mocha basic BDD Testing
 
-Difficulty 8/10
+Difficulty :full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::full_moon::new_moon::new_moon:
 
+### Created By Bilal Cagiran | [E-Mail](mailto:bcagiran@hotmail.com) | [Github](https://github.com/extwiii/) | [LinkedIn](https://linkedin.com/in/bilalcagiran) | [CodePen](http://codepen.io/extwiii/) | [Blog/Site](http://bilalcagiran.com) | [FreeCodeCamp](https://www.freecodecamp.com/extwiii) 
